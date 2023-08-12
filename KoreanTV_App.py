@@ -42,7 +42,7 @@ def main():
 
     # Getting the file path
     # Load the TV data
-    tv = pd.read_csv("C:/AplikasiPI/koreanTV.csv")
+    tv = pd.read_csv("koreanTV.csv")
 
     # Clean the data
     tv = clean_data(tv)
